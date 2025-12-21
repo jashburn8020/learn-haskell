@@ -242,7 +242,7 @@ ghci> replicate 10 5
 
 ## I'm a list comprehension
 
-* **Mathematical Origin:** Based on mathematical set-builder notation. For example, the set of the first ten even natural numbers -- $S = \{\, 2 \cdot x \mid x \in \mathbb{N},\ x \le 10 \,\}$ -- is mirrored in Haskell syntax.
+* **Mathematical Origin:** Based on mathematical set-builder notation. For example, the set of the first ten even natural numbers -- $S = \lbrace\ 2 \cdot x \mid x \in \mathbb{N},\ x \le 10\ \rbrace$ -- is mirrored in Haskell syntax.
 * **Basic Syntax:** `[ output_expression | variable <- input_list, predicate ]`
   * The **output function** (before the `|`) defines how to transform the elements.
   * The **generator** (`x <- [1..10]`) binds elements from an input list to a variable.
