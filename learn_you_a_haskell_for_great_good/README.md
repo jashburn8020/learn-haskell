@@ -18,6 +18,7 @@ This directory contains a summary of the [open-source fork](https://learnyouahas
 * Do not use emojis.
 * Explicitly use Haskell-specific terminology where appropriate (e.g., 'type signatures', 'monad', 'pattern matching').
 * Output code examples as separate code blocks, but not for code that is inlined with explanatory text.
+* If you find errors or outdated code (e.g., code deprecated or superseded in Haskell 2010) on the web page or in the excerpts, mention them in italics.
 * At the end of your summary, add a "Key takeaways" section along with a few bullet points to highlight the core concepts a software developer must grasp.
 
 At the end of your output, ask me for the URL of the next web page or the next excerpt to summarise.

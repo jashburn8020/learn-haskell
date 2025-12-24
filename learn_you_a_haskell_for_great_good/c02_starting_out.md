@@ -312,7 +312,7 @@ ghci> [ [ x | x <- xs, even x ] | xs <- xxs]
   * A pair (2-tuple) of type `(Int, Int)` is a distinct type from a triple (3-tuple) of type `(Int, Int, Int)`.
   * You cannot have a list containing both pairs and triples, such as `[(1,2), (8,11,5)]`, as it violates list homogeneity.
 * **Use Case:** Use tuples when the number of components is known in advance and fixed (e.g., coordinates or a name-age pair).
-* **Constraints:** * There is no such thing as a singleton tuple; a tuple must contain at least two elements.
+* **Constraints:** There is no such thing as a singleton tuple; a tuple must contain at least two elements.
   * Comparison (`==`, `<`, etc.) is only possible between tuples of the same size and component types.
 * **Accessing Data (Pairs Only):** Haskell provides two specific functions for extracting values from pairs (2-tuples):
   * `fst`: Returns the first component.
